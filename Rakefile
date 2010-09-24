@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('soft_delete', '0.1.0') do |p|
+Echoe.new('soft_delete', '0.1.1') do |p|
   p.description    = "Overwrites default destroy behaviour by setting a deleted_at field."
   p.url            = "http://github.com/smoku/soft_delete"
   p.author         = "Paweł Smoczyk"
